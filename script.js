@@ -26,8 +26,8 @@ function PrintStudentsbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
-  let newStudent = {id:4, name:"susan", age:"20" , marks:45};
-  arr.push(newStudent);
+  let new_Student = {id:4, name:"aman", age:"20" , marks:45};
+  arr.push(new_Student);
   console.log(arr);
 }
 
@@ -40,9 +40,9 @@ function removeFailedStudent() {
 function concatenateArray() {
   //Write your code here, just console.log
   let new_Arr = [
-    { id: 4, name: "ovaid", age: "24", marks: 90 },
-    { id: 5, name: "suhaib", age: "16", marks: 50 },
-    { id: 6, name: "tafim", age: "16", marks: 50 },
+    { id: 4, name: "abhishek", age: "22", marks: 90 },
+    { id: 5, name: "mohit", age: "19", marks: 50 },
+    { id: 6, name: "tin", age: "16", marks: 50 },
   ];
 
   let concatenatedArr = arr.concat(new_Arr);
